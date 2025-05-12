@@ -8,4 +8,7 @@ void main(List<String> arguments) {
   Student student = Student();
   print(person.name);
   print(student.name);
+
+  // ini adalah pemanggilan static, dia memanggil class nya bukan objek
+  print(Person.maxAge);
 }
